@@ -11,7 +11,6 @@ void fire(gameBoard, int&, bool&);
 void print_board(gameBoard);
 bool winner_test(int, int);
 
-// im retarded on main too
 int main()
 {
 	ifstream mydata;
@@ -43,7 +42,6 @@ int main()
 	return 0;
 }
 
-// i dont really understand the logic for this 
 void fire(gameBoard player, int& no_hits, bool& end_game)
 {
 	{
